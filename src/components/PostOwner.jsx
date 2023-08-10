@@ -1,3 +1,5 @@
-export const PostOwner = ({}) => {
-  return <div>Your code here...</div>;
+import { comments } from "@/libs/comments";
+
+export const PostOwner = ({postowner,comment,reply}) => {
+  return <div></div>;
 };

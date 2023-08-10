@@ -1,3 +1,4 @@
+
 export const Comment = ({
   userImagePath,
   username,
@@ -7,7 +8,7 @@ export const Comment = ({
 }) => {
   return (
     <div>
-      your code here...
+      
       {/* map-loop render Reply component here */}
     </div>
   );
