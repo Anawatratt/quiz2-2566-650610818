@@ -80,15 +80,6 @@ export default function HomePage() {
           </div>
         </div>
         {/* map-loop render Comment component here */}
-        {comments.map((Comment)=>(
-          <comments
-      userImagePath={Comment.userImagePath}
-      username={Comment.username}
-      commentText={comment.commentText}
-      likeNum={likeNum.commentText}
-      replies={replies.commentText}
-      />
-      ))}
       </div>
     </div>
   );
